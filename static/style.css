@@ -1,0 +1,184 @@
+body {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.navbar {
+    background-color: #4A4947;
+    height: 75px;
+    border-bottom: 7px solid #B17457;
+
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: #FAF7F0;
+    padding-left: 20px;
+
+}
+
+.navbar p {
+    font-size: medium;
+    color: #FAF7F0;
+    padding-left: 20px;
+    margin-bottom: unset !important;
+
+}
+
+nav.navbar div {
+    justify-content: left !important;
+}
+
+caption {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    caption-side: top;
+
+}
+
+body {
+    background-color: #FAF7F0;
+
+}
+
+main div {
+    padding-left: 20px;
+}
+
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    background-color: #D8D2C2;
+    border-collapse: collapse;
+    padding: 25px;
+    font-size: 1.1rem;
+    min-width: 50px;
+    box-shadow: 0 0 10px rgba(44, 42, 42, 0.15);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #4A4947;
+}
+
+
+#start_system,
+#stop_system {
+    position: relative;
+    top: 10px;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+    transition: opacity 0.5s ease;
+    opacity: 1;
+    margin-bottom: 15px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: #FF8343;
+    padding: 8px 16px;
+    font-size: 18px;
+    border-bottom: 6px solid #B17457;
+    font-weight: 700;
+    color: white;
+    line-height: 25px;
+}
+
+
+#loadingSpinner .spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+img#cam_frame {
+    border: 2px solid #B17457;
+    margin-top: 10px;
+}
+
+span.header {
+    color: #4A4947;
+    font-size: medium;
+}
+
+.radio-input input {
+    display: none;
+}
+
+.radio-input {
+
+    padding: 15px;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+#camera_url {
+    margin: 0 10px 40px 10px;
+    width: 90%;
+    height: 35px;
+}
+
+.radio-input input:checked + label {
+    --border-color: #2d7a58;
+    border-color: var(--border-color);
+    border-width: 2px;
+}
+
+.radio-input label:hover {
+    --border-color: #2d7a58;
+    border-color: var(--border-color);
+}
+
+.circle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(189, 187, 207);
+    margin-right: 0.5rem;
+    position: relative;
+}
+
+.radio-input input:checked + label span.circle::before {
+    content: "";
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2d7a58;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.bd-callout {
+    --bs-link-color-rgb: var(--bd-callout-link);
+    --bs-code-color: var(--bd-callout-code-color);
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    color: var(--bd-callout-color, inherit);
+    background-color: var(--bd-callout-bg, var(--bs-gray-100));
+    border-left: 0.25rem solid var(--bd-callout-border, var(--bs-gray-300));
+    font-size: large;
+}
+
+.bd-callout-info {
+    --bd-callout-color: var(--bs-info-text-emphasis);
+    --bd-callout-bg: var(--bs-info-bg-subtle);
+    --bd-callout-border: var(--bs-info-border-subtle);
+}
+
+
